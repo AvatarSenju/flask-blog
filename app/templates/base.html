@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <meta charset="utf-8">
+    {% if title %}
+    <title>{{title}} - Flask Project</title>
+    {% else %}
+    <title>Welcome to Anushrut</title>
+    {% endif%}
+  </head>
+  <body>
+    <div class="navBar">
+      Project :
+      <a href="{{ url_for('index') }}">Home</a>
+      <a href="{{ url_for('login') }}">Login</a>
+
+    </div>
+    <hr>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </body>
+</html>
