@@ -126,6 +126,7 @@ pyflakes==1.4.0
 Pygments==2.2.0
 PyJWT==1.7.1
 pylint==1.8.2
+PyMySQL==0.9.3
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
 pypiwin32==223
