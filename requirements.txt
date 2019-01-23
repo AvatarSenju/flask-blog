@@ -129,7 +129,6 @@ pylint==1.8.2
 PyMySQL==0.9.3
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
-pypiwin32==223
 PyPrint==0.2.6
 pyreadline==2.1
 pyroma==2.2
