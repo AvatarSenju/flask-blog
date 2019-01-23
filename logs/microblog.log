@@ -54,3 +54,7 @@ Traceback (most recent call last):
     raise BuildError(endpoint, values, method, self)
 werkzeug.routing.BuildError: Could not build url for endpoint 'register'. Did you mean 'auth.register' instead?
 2019-01-23 02:11:24,037 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:73]
+2019-01-23 19:11:33,941 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
+2019-01-23 19:13:12,314 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
+2019-01-23 19:13:58,722 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
+2019-01-23 19:14:07,118 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
