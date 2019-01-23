@@ -138,7 +138,6 @@ python-dotenv==0.10.1
 python-editor==1.0.3
 python-pygaze==0.6.0a25
 pytz==2017.3
-pywin32==223
 pywinpty==0.5.1
 PyYAML==3.12
 pyzmq==17.0.0
