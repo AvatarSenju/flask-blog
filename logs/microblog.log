@@ -58,3 +58,6 @@ werkzeug.routing.BuildError: Could not build url for endpoint 'register'. Did yo
 2019-01-23 19:13:12,314 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
 2019-01-23 19:13:58,722 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
 2019-01-23 19:14:07,118 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:75]
+2019-01-23 21:42:43,765 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-23 21:43:48,716 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-23 21:44:21,288 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
