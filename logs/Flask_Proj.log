@@ -54,3 +54,4 @@ Traceback (most recent call last):
     pts.appendleft(center)
 NameError: name 'pts' is not defined
 2019-01-28 19:59:55,517 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 20:14:47,081 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
