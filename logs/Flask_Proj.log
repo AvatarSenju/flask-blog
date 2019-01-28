@@ -1,0 +1,56 @@
+2019-01-28 19:47:25,531 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:48:15,700 ERROR: Exception on /track [GET] [in c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2019-01-28 19:50:11,660 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:51:58,822 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:55:25,406 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:57:38,999 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:57:50,261 ERROR: Exception on /track [GET] [in c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\workload\flask\flaskProj\app\main\routes.py", line 169, in track
+    final_frame = operate(frame)
+  File "F:\workload\flask\flaskProj\app\main\routes.py", line 196, in operate
+    mask = cv2.inRange(frame_copy, hsv_infinum, hsv_supremum)
+NameError: name 'hsv_infinum' is not defined
+2019-01-28 19:59:04,396 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
+2019-01-28 19:59:13,807 ERROR: Exception on /track [GET] [in c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\anushrut\appdata\local\programs\python\python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\workload\flask\flaskProj\app\main\routes.py", line 169, in track
+    final_frame = operate(frame)
+  File "F:\workload\flask\flaskProj\app\main\routes.py", line 224, in operate
+    pts.appendleft(center)
+NameError: name 'pts' is not defined
+2019-01-28 19:59:55,517 INFO: flask Project [in F:\workload\flask\flaskProj\app\__init__.py:81]
