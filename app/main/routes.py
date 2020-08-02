@@ -18,6 +18,15 @@ def before_request():
     g.locale = str(get_locale())
 
 
+
+
+@bp.route('/api/explore')
+def api_explore():
+    page = request.args.get('page', 1, type=int)
+    per_page = min(request.args.get('per_page', 100, type=int), 1000)
+    data = Post.to_collection_dict(Post.query, page, per_page)
+    return jsonify(data)
+
 @bp.route('/', methods=['GET', 'POST'])
 @bp.route('/index', methods=['GET', 'POST'])
 @login_required
